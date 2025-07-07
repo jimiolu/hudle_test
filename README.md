@@ -1,6 +1,6 @@
-# Hawket: Data Engine
+# Hudle: Collaborative Data Platform
 
-Hawket is a comprehensive Data access engine that makes scarce Africa data accessible for enterprise, researchers, builders, and innovators.
+Hudle is a collaborative Data access community platform that makes scarce Africa data accessible for enterprise, researchers, builders, and innovators.
 We refine core Data for enterprise scale use.
 
 ## Key Features
