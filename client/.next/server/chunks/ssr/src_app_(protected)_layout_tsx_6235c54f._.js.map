@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/alec/Documents/code/hudle/client/src/app/%28protected%29/layout.tsx"],"sourcesContent":["import React, { ReactNode } from 'react'\n\nconst Layout = ({children}: {children: ReactNode}) => {\n  return (\n    <div>\n        <div>{children}</div>\n    </div>\n  )\n}\n\nexport default Layout"],"names":[],"mappings":";;;;;AAEA,MAAM,SAAS,CAAC,EAAC,QAAQ,EAAwB;IAC/C,qBACE,8OAAC;kBACG,cAAA,8OAAC;sBAAK;;;;;;;;;;;AAGd;uCAEe","debugId":null}}]
+}

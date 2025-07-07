@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/alec/Documents/code/hudle/client/src/app/%28marketing%29/components/Header.tsx"],"sourcesContent":["import React, { useState } from 'react'\n\nconst Header = () => {\n    const [mobileOpen, setMobileOpen] = useState(false);\n\n  return (\n    <header className='sticky top-0 z-50 bg-white shadow-sm'>\n        <div className='root-container flex items-center justify-between h-16'>\n            Hello\n        </div>\n    </header>\n  )\n}\n\nexport default Header"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,SAAS;IACX,MAAM,CAAC,YAAY,cAAc,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE;IAE/C,qBACE,8OAAC;QAAO,WAAU;kBACd,cAAA,8OAAC;YAAI,WAAU;sBAAwD;;;;;;;;;;;AAK/E;uCAEe","debugId":null}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///Users/alec/Documents/code/hudle/client/src/app/%28marketing%29/layout.tsx"],"sourcesContent":["import React, { ReactNode } from \"react\";\nimport Header from \"./components/Header\";\n\nconst Layout = ({ children }: { children: ReactNode }) => {\n  return (\n    <div>\n      <Header />\n      <div>{children}</div>\n    </div>\n  );\n};\n\nexport default Layout;\n"],"names":[],"mappings":";;;;AACA;;;AAEA,MAAM,SAAS,CAAC,EAAE,QAAQ,EAA2B;IACnD,qBACE,8OAAC;;0BACC,8OAAC,oJAAA,CAAA,UAAM;;;;;0BACP,8OAAC;0BAAK;;;;;;;;;;;;AAGZ;uCAEe","debugId":null}}]
+}

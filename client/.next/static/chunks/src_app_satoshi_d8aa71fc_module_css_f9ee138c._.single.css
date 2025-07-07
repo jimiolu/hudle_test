@@ -1,0 +1,47 @@
+/* [project]/src/app/satoshi_d8aa71fc.module.css [app-client] (css) */
+@font-face {
+  font-family: satoshi;
+  src: url("../media/Satoshi_Regular-s.p.67d8e623.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: satoshi;
+  src: url("../media/Satoshi_Medium-s.p.4f8e7f3e.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: satoshi;
+  src: url("../media/Satoshi_Bold-s.p.5ed63e30.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: satoshi;
+  src: url("../media/Satoshi_Black-s.p.667f5b4f.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: satoshi Fallback;
+  src: local(Arial);
+  ascent-override: 102.23%;
+  descent-override: 24.29%;
+  line-gap-override: 10.12%;
+  size-adjust: 98.8%;
+}
+
+.satoshi_d8aa71fc-module__d1uTNq__className {
+  font-family: satoshi, satoshi Fallback;
+}
+
+/*# sourceMappingURL=src_app_satoshi_d8aa71fc_module_css_f9ee138c._.single.css.map*/

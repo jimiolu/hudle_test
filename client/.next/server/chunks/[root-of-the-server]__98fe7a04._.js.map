@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///Users/alec/Documents/code/hudle/client/src/app/api/search/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\n\nconst MOCK_DATA = [\n  \"Nigeria Census 2023\",\n  \"Agriculture in Kenya\",\n  \"COVID Data Africa\",\n  \"Population by Region\",\n  \"Sustainable Energy Report\",\n  \"Africa Language LLM Models\",\n];\n\nexport async function GET(req: Request) {\n  const { searchParams } = new URL(req.url);\n  const q = searchParams.get(\"q\")?.toLowerCase() || \"\";\n\n  const filtered = MOCK_DATA.filter((item) =>\n    item.toLowerCase().includes(q)\n  ).slice(0, 5);\n\n  return NextResponse.json({ suggestions: filtered });\n}\n"],"names":[],"mappings":";;;AAAA;;AAEA,MAAM,YAAY;IAChB;IACA;IACA;IACA;IACA;IACA;CACD;AAEM,eAAe,IAAI,GAAY;IACpC,MAAM,EAAE,YAAY,EAAE,GAAG,IAAI,IAAI,IAAI,GAAG;IACxC,MAAM,IAAI,aAAa,GAAG,CAAC,MAAM,iBAAiB;IAElD,MAAM,WAAW,UAAU,MAAM,CAAC,CAAC,OACjC,KAAK,WAAW,GAAG,QAAQ,CAAC,IAC5B,KAAK,CAAC,GAAG;IAEX,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;QAAE,aAAa;IAAS;AACnD","debugId":null}}]
+}
