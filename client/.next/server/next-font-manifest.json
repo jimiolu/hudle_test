@@ -1,6 +1,10 @@
 {
   "app": {
-    "[project]/src/app/(marketing)/page": [
+    "[project]/src/app/(auth)/login/page": [
+      "static/media/xMQbuFFdSaiXzQUpDqW1KX4-s.p.5f172c3b.woff2",
+      "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.0faac26c.woff2"
+    ],
+    "[project]/src/app/(auth)/signup/page": [
       "static/media/xMQbuFFdSaiXzQUpDqW1KX4-s.p.5f172c3b.woff2",
       "static/media/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw-s.p.0faac26c.woff2"
     ],
